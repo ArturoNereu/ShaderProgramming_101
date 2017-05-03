@@ -1,0 +1,9 @@
+One or more textures on this asset have been created with images from CGTextures.com. These images may not be redistributed by default. Please visit www.cgtextures.com for more information.
+
+These textures are:
+
+	- Flower.png
+	- NaturePlants0013_1_S.png
+	- NaturePlants0030_1_S.png
+	
+So feel free to redistribute my Crop/Noodle texture as much as you want. ;)

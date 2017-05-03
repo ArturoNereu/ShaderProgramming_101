@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CropMaterial
+  m_Shader: {fileID: 4800000, guid: 1902925be899f6c4794040c4a1c39b50, type: 3}
+  m_ShaderKeywords: GRASS_WIDTH_SMOOTHING ONE_GRASS_TYPE
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Displacement
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Density
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GrassTex00
+        second:
+          m_Texture: {fileID: 2800000, guid: b2b5222a3d5062c4a9b4b5877982a8e1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GrassTex01
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GrassTex02
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GrassTex03
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: .5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _EdgeLength
+        second: 20
+      data:
+        first:
+          name: _MaxTessellation
+        second: 3
+      data:
+        first:
+          name: _LODStart
+        second: 50
+      data:
+        first:
+          name: _LODEnd
+        second: 300
+      data:
+        first:
+          name: _LODMax
+        second: 5
+      data:
+        first:
+          name: _GrassFadeStart
+        second: 31.7700005
+      data:
+        first:
+          name: _GrassFadeEnd
+        second: 100
+      data:
+        first:
+          name: _Disorder
+        second: .200000003
+      data:
+        first:
+          name: _TextureCutoff
+        second: .100000001
+      data:
+        first:
+          name: _WindRotation
+        second: 0
+      data:
+        first:
+          name: _Smoothness00
+        second: .0829999968
+      data:
+        first:
+          name: _Softness00
+        second: .509000003
+      data:
+        first:
+          name: _Width00
+        second: .0500000007
+      data:
+        first:
+          name: _MinHeight00
+        second: 1.20000005
+      data:
+        first:
+          name: _MaxHeight00
+        second: 1.60000002
+      data:
+        first:
+          name: _TextureAtlasWidth00
+        second: 1
+      data:
+        first:
+          name: _TextureAtlasHeight00
+        second: 1
+      data:
+        first:
+          name: _Smoothness01
+        second: .5
+      data:
+        first:
+          name: _Softness01
+        second: 1
+      data:
+        first:
+          name: _Width01
+        second: 1
+      data:
+        first:
+          name: _MinHeight01
+        second: 1
+      data:
+        first:
+          name: _MaxHeight01
+        second: 1
+      data:
+        first:
+          name: _TextureAtlasWidth01
+        second: 1
+      data:
+        first:
+          name: _TextureAtlasHeight01
+        second: 1
+      data:
+        first:
+          name: _Smoothness02
+        second: .5
+      data:
+        first:
+          name: _Softness02
+        second: 1
+      data:
+        first:
+          name: _Width02
+        second: 1
+      data:
+        first:
+          name: _MinHeight02
+        second: 1
+      data:
+        first:
+          name: _MaxHeight02
+        second: 1
+      data:
+        first:
+          name: _TextureAtlasWidth02
+        second: 1
+      data:
+        first:
+          name: _TextureAtlasHeight02
+        second: 1
+      data:
+        first:
+          name: _Smoothness03
+        second: .5
+      data:
+        first:
+          name: _Softness03
+        second: 1
+      data:
+        first:
+          name: _Width03
+        second: 1
+      data:
+        first:
+          name: _MinHeight03
+        second: 1
+      data:
+        first:
+          name: _MaxHeight03
+        second: 1
+      data:
+        first:
+          name: _TextureAtlasWidth03
+        second: 1
+      data:
+        first:
+          name: _TextureAtlasHeight03
+        second: 1
+      data:
+        first:
+          name: _GrassFadeDistance
+        second: 20
+      data:
+        first:
+          name: _Metallic00
+        second: 0
+      data:
+        first:
+          name: _Metallic01
+        second: 0
+      data:
+        first:
+          name: _Metallic02
+        second: 0
+      data:
+        first:
+          name: _Metallic03
+        second: 0
+      data:
+        first:
+          name: _LODStartDistance
+        second: 20
+      data:
+        first:
+          name: _LODEndDistance
+        second: 50
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _GrassBottomColor
+        second: {r: .31764707, g: .254901975, b: .231372565, a: 1}
+      data:
+        first:
+          name: _BurnColor
+        second: {r: .102941155, g: .0469290577, b: .0469290577, a: 1}
+      data:
+        first:
+          name: _DensityValues
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _WindParams
+        second: {r: .200000003, g: 1.5, b: .200000003, a: .5}
+      data:
+        first:
+          name: _Color00
+        second: {r: .933336377, g: .776480079, b: .50589931, a: 1}
+      data:
+        first:
+          name: _SecColor00
+        second: {r: .737262189, g: .600009918, b: .372561336, a: 1}
+      data:
+        first:
+          name: _SpecColor00
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+      data:
+        first:
+          name: _Color01
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SecColor01
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor01
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+      data:
+        first:
+          name: _Color02
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SecColor02
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor02
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+      data:
+        first:
+          name: _Color03
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SecColor03
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor03
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+      data:
+        first:
+          name: _TerrainDensity
+        second: {r: 1, g: 1, b: 1, a: 1}
