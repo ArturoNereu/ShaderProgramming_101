@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AdamAssets/Adam_Scene.unity
+- path: Assets/Scenes/Scene03.unity
   isLoaded: 1
   isActive: 1
