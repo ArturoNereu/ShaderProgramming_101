@@ -19,14 +19,14 @@
             v2f vert(appdata_base v) 
 			{
 				v2f o;
-				float4 vert = float4(v.vertex.xyz * sin(_Time.y), v.vertex.w);
+				float4 vert = v.vertex * 0.75;//float4(v.vertex.xyz * sin(_Time.y), v.vertex.w);
                 o.pos = UnityObjectToClipPos(vert);
                 return o;
             }
 
             half4 frag(v2f i) : COLOR 
 			{
-				return half4(0.5, 0.5, 0, 1);
+				return half4(1, 1, 1, 1);
             }
 			ENDCG
 		}
