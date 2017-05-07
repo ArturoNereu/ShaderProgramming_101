@@ -24,10 +24,10 @@ public class MeshGenerator : MonoBehaviour
         //We can read/write the color of a vertex, from code or from a 3D modeling software
         mesh.colors = new Color[]
         {
-            Color.red, //0
-            Color.green,  //1
-            Color.blue,  //2
-            Color.gray   //3
+            Color.red,      //0
+            Color.green,    //1
+            Color.blue,     //2
+            Color.gray      //3
         };
 
         //We define the triangles, in this case we share the vertex number 0

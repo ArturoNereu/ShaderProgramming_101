@@ -21,7 +21,6 @@
 			{
 				v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
-				//o.normal = v.normal;
                 o.normal = mul(UNITY_MATRIX_IT_MV, float4(v.normal, 0)).xyz;
 				return o;
             }
