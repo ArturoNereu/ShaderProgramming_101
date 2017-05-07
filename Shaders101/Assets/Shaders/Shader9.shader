@@ -21,7 +21,7 @@
 
 		void vert(inout appdata_full v)
 		{
-			v.vertex.xyz += v.normal * sin(_Time.y) * 0.01;
+			v.vertex.xyz += v.normal * (sin(_Time.y) + 1) * 0.01;
 		}
 
 		void surf(Input IN, inout SurfaceOutput o)

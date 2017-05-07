@@ -27,7 +27,7 @@
 		void surf(Input IN, inout SurfaceOutputStandard o)
 		{
 			o.Albedo = tex2D(_MainTexture, IN.uv_MainTexture).rgb;
-			o.Emission = tex2D(_EmissionTexture, IN.uv_EmissionTexture);// * _EmissionMultiplier;
+			o.Emission = tex2D(_EmissionTexture, IN.uv_EmissionTexture) *  _EmissionMultiplier;// *;
 		}
 		ENDCG
 		
